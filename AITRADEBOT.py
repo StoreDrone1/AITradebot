@@ -120,7 +120,8 @@ def trade():
     barset.clear()    
 
 # schedule the trade function to run at certain intervals every day
-#schedule.every().day.at("19:00").do(trade)
+#change this to your desired interval of daily trading
+
 schedule.every().day.at("09:00").do(trade)
 schedule.every().day.at("10:00").do(trade)
 schedule.every().day.at("11:00").do(trade)
